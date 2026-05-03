@@ -21,7 +21,7 @@ export function Navigation() {
   return (
     <>
       <nav
-        className={`fixed top-0 left-0 right-0 z-50 px-6 py-2 flex justify-between items-center bg-cream border-b border-warm transition-shadow md:px-12 ${
+        className={`fixed top-0 left-0 right-0 z-50 px-6 py-3 flex justify-between items-center bg-cream border-b border-warm transition-shadow md:px-12 ${
           isScrolled ? "shadow-md" : ""
         }`}
       >
@@ -78,7 +78,7 @@ export function Navigation() {
 
       {/* Mobile Navigation */}
       <div
-        className={`fixed top-16 left-0 right-0 bg-cream border-b border-warm px-6 py-5 z-40 flex-col gap-4 ${
+        className={`fixed top-[120px] left-0 right-0 bg-cream border-b border-warm px-6 py-5 z-40 flex-col gap-4 ${
           isMobileMenuOpen ? "flex" : "hidden"
         }`}
       >
