@@ -53,7 +53,7 @@ export function About() {
         <div className="fade-in text-white/75 text-base leading-relaxed space-y-4">
           <p>
             Max Maistre Media was born out of a simple frustration: great small
-            businesses were being invisible online — not because their products
+            businesses were invisible online — not because their products
             {"weren't"} good, but because they {"didn't"} have the team, time, or budget
             to market themselves well.
           </p>
