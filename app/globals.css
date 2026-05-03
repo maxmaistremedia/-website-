@@ -1,0 +1,78 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "DM Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", ui-serif, Georgia, serif;
+
+  --color-cream: #faf7f2;
+  --color-dark: #102937;
+  --color-teal: #124d54;
+  --color-orange: #f9744b;
+  --color-warm: #e1d9cf;
+  --color-light: #ededed;
+
+  --color-background: #faf7f2;
+  --color-foreground: #102937;
+  --color-primary: #f9744b;
+  --color-primary-foreground: #ffffff;
+  --color-secondary: #124d54;
+  --color-secondary-foreground: #ffffff;
+  --color-muted: #e1d9cf;
+  --color-muted-foreground: #102937;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/* Marquee animation */
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 20s linear infinite;
+}
+
+/* Fade-in animation */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 500ms ease-out, transform 500ms ease-out;
+}
+
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Rotating pill animation */
+.rotating-pill {
+  transition: background 400ms ease, border-color 400ms ease, transform 300ms ease;
+}
+
+.rotating-pill.active {
+  background-color: var(--color-orange);
+  border-color: var(--color-orange);
+  transform: scale(1.08);
+}
