@@ -57,7 +57,7 @@ export function WhoWeHelp() {
           that are ready to grow.
         </h2>
         <p className="text-dark/60 text-base leading-relaxed max-w-lg">
-          {"Whether you're just getting started or already have a following —                    we meet you where you are."}
+          {"Whether you're just getting started or already have a following — we meet you where you are."}
         </p>
       </div>
 
