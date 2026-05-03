@@ -28,10 +28,10 @@ export function Hero() {
         </p>
         <div className="flex flex-wrap gap-4 items-center justify-center lg:justify-start">
           <a
-            href="mailto:maxmaistre@gmail.com"
+            href="#services"
             className="bg-orange text-white px-8 py-3.5 rounded-full text-sm font-medium hover:opacity-85 transition-opacity"
           >
-            Start a Project
+            See What We Do
           </a>
         </div>
       </div>
