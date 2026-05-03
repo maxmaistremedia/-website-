@@ -36,9 +36,6 @@ export function CTA() {
         <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl leading-tight text-white max-w-lg mx-auto mb-4">
           Ready to grow your brand?
         </h2>
-        <p className="text-white/65 text-base leading-relaxed max-w-md mx-auto mb-10">
-          {"Let's hop on a free 30-minute discovery call and figure out what your business actually needs."}
-        </p>
 
         <a
           href="mailto:maxmaistremedia@gmail.com"
