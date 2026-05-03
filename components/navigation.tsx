@@ -31,7 +31,7 @@ export function Navigation() {
             alt="Max Maistre Media"
             width={168}
             height={42}
-            className="h-[42px] w-auto"
+            className="h-[96px] w-auto"
             priority
           />
         </Link>
