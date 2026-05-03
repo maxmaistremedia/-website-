@@ -1,7 +1,6 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import Link from "next/link";
 
 const pills = ["Social Media", "Email Marketing", "Meta Ads", "Design", "Analytics"];
 
@@ -34,12 +33,6 @@ export function Hero() {
           >
             Start a Project
           </a>
-          <Link
-            href="#services"
-            className="text-dark/60 text-sm border-b border-current pb-0.5 hover:opacity-100 transition-opacity"
-          >
-            See what we do
-          </Link>
         </div>
       </div>
 
