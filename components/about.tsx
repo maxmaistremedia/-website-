@@ -54,7 +54,7 @@ export function About() {
           <p>
             Max Maistre Media was born out of a simple frustration: great small
             businesses were invisible online — not because their products
-            {"weren't"} good, but because they {"didn't"} have the team, time, or budget
+            {" weren't"} good, but because they {"didn't"} have the team, time, or budget
             to market themselves well.
           </p>
           <p>
