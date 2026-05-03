@@ -60,7 +60,7 @@ export function About() {
           <p>
             We started this studio to change that. {"We're"} a duo of marketers who
             believe approachable, beautiful, and effective digital marketing
-            {"shouldn't"} be reserved for big brands with big budgets.
+            {" shouldn't"} be reserved for big brands with big budgets.
           </p>
           <p>
             From social content to email campaigns to paid ads, we handle the
