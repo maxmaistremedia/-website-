@@ -1,9 +1,11 @@
 @import "tailwindcss";
 
-@theme {
+@theme inline {
+  /* Fonts */
   --font-sans: "DM Sans", ui-sans-serif, system-ui, sans-serif;
   --font-serif: "Playfair Display", ui-serif, Georgia, serif;
 
+  /* Brand Colors */
   --color-cream: #faf7f2;
   --color-dark: #102937;
   --color-teal: #124d54;
@@ -11,6 +13,7 @@
   --color-warm: #e1d9cf;
   --color-light: #ededed;
 
+  /* Semantic Colors */
   --color-background: #faf7f2;
   --color-foreground: #102937;
   --color-primary: #f9744b;
