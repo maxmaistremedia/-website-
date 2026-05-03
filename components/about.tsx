@@ -39,7 +39,7 @@ export function About() {
   return (
     <section ref={sectionRef} id="about" className="bg-dark text-white py-24 px-6 md:px-12">
       <div className="fade-in">
-        <div className="text-xs tracking-widest uppercase text-orange mb-3">
+        <div className="text-lg tracking-widest uppercase text-orange mb-3">
           About Us
         </div>
         <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl leading-tight text-white mb-4">
